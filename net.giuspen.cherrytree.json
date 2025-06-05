@@ -1,7 +1,7 @@
 {
     "app-id": "net.giuspen.cherrytree",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "command": "cherrytree",
     "rename-desktop-file": "cherrytree.desktop",
@@ -83,8 +83,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.7.tar.xz",
-                    "sha256": "fe02c1e5f5825940d82b56b6ec31a12c06c05c1583cfe62f934d0763e1e542b3"
+                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.8.tar.xz",
+                    "sha256": "64f11d3b95a24e2a8d4166ecff518730f79ecc27222ef41faf7c7e0340fc9329"
                 }
             ]
         },
@@ -122,8 +122,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.9.tar.xz",
-                    "sha256" : "30d5bfe404571ce566a8e938c8bac17576420eb508f1e257837da63f14ad44ce"
+                    "url" : "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.10.tar.xz",
+                    "sha256" : "7ab7e2266808716e26c39924ace1fb46da86c17ef39d989624c42314b32b5a76"
                 }
             ]
         },
@@ -204,8 +204,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.3/vte-0.78.3.tar.bz2",
-                    "sha256" : "66c1b6a4237494d84f2e4bc53d47c2b68d8d73710f8144c58d05a17f1f25c84b"
+                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.5/vte-0.78.5.tar.bz2",
+                    "sha256" : "50d7290460e0d1116bb288676d34cf528d4b5d667499af2874f0f7589b8e9720"
                 }
             ]
         },
@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.net/software/cherrytree_1.4.0.tar.xz",
-                    "sha256" : "3ab77aa7de62a0285ea9d227e640b0b20afc2f0b5b0dd1dbacde8bfe4791e8ab"
+                    "url" : "https://www.giuspen.net/software/cherrytree_1.5.0.tar.xz",
+                    "sha256" : "55d477f721ad95d6d2302c04d44894b2371a98b0d2e43a3d5c455f82457553b7"
                 }
             ]
         },
