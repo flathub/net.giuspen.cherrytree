@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.6.tar.xz",
-                    "sha256": "b55c46037dbcdabc5cee3b389ea11cc3910adb68ebe883e9477847aa660862e7"
+                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.7.tar.xz",
+                    "sha256": "494abfce781418259b1e9d8888c73af4de4b6f3be36cc75d9baa8baa0f2a7a39"
                 }
             ],
             "cleanup": [
@@ -218,8 +218,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.net/software/cherrytree_1.5.0.tar.xz",
-                    "sha256" : "55d477f721ad95d6d2302c04d44894b2371a98b0d2e43a3d5c455f82457553b7"
+                    "url" : "https://www.giuspen.net/software/cherrytree_1.6.0.tar.xz",
+                    "sha256" : "fc24cc2a7e07ac79af68226eb6ff1950e9d01b8029bf3df2e833d9c71f22da54"
                 }
             ]
         },
