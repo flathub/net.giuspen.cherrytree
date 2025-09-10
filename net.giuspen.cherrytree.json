@@ -204,8 +204,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.80.3/vte-0.80.3.tar.bz2",
-                    "sha256" : "958aa3e705317a1a09653b6c769040e6c286c846ce974942c825d728093157fd"
+                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.5/vte-0.78.5.tar.bz2",
+                    "sha256" : "50d7290460e0d1116bb288676d34cf528d4b5d667499af2874f0f7589b8e9720"
                 }
             ]
         },
