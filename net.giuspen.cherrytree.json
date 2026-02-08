@@ -32,23 +32,10 @@
     ],
     "modules": [
         {
-            "name": "mm-common",
-            "buildsystem": "meson",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.7.tar.xz",
-                    "sha256": "494abfce781418259b1e9d8888c73af4de4b6f3be36cc75d9baa8baa0f2a7a39"
-                }
-            ],
-            "cleanup": [
-                "*"
-            ]
-        },
-        {
             "name": "sigc++-2",
+            "buildsystem": "meson",
             "config-opts": [
-                "--disable-documentation"
+                "-Dbuild-documentation=false"
             ],
             "sources": [
                 {
@@ -60,8 +47,9 @@
         },
         {
             "name": "cairomm",
+            "buildsystem": "meson",
             "config-opts": [
-                "--disable-documentation"
+                "-Dbuild-documentation=false"
             ],
             "cleanup": [
                 "/lib/cairomm-1.0"
@@ -140,8 +128,9 @@
         },
         {
             "name": "libxml++",
-            "config-opts" : [
-                "--disable-documentation"
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuild-documentation=false"
             ],
             "sources": [
                 {
