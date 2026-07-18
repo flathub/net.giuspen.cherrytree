@@ -180,13 +180,27 @@
             ]
         },
         {
+            "name": "simdutf",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/simdutf/simdutf/archive/v9.0.0/simdutf-9.0.0.tar.gz",
+                    "sha256": "fd2ce975f29809a975a8da8843cfb3a7265af3f71be548f199d23cf65e101764"
+                }
+            ]
+        },
+        {
             "name": "vte-2.91",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.82.3/vte-0.82.3.tar.bz2",
-                    "sha256" : "9bfc61cd848345d9176f18e2c167446ca32ab8973f8f0bd9cfc2ec4a8d914c44"
+                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.84.0/vte-0.84.0.tar.bz2",
+                    "sha256" : "b215d2c8e56fa03e04dfd1b6c5576479484be15227fa49c236271b46d08581d0"
                 }
             ]
         },
