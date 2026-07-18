@@ -213,7 +213,7 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.net/software/cherrytree_1.7.1.tar.xz",
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.1/cherrytree_1.7.1.tar.xz",
                     "sha256" : "ae2e5f14787c673c18ee4c2276e5a1b2973ed62a373b1ef8829d57d78951f0bb"
                 }
             ]
@@ -227,7 +227,7 @@
             "sources": [
                 {
                     "type" : "file",
-                    "url" : "https://www.giuspen.net/software/TinyTeX-1-v2022.04.04.tar.xz",
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.1/TinyTeX-1-v2022.04.04.tar.xz",
                     "sha256" : "3025930f9c9e989c0cac59826f8ee126d677aec728d20537b9e53e13ace29020"
                 }
             ]
