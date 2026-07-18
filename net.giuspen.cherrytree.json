@@ -194,6 +194,17 @@
             ]
         },
         {
+            "name": "fast_float",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/fastfloat/fast_float/archive/refs/tags/v8.2.10.tar.gz",
+                    "sha256": "76f958dd97b1cf4d8862d1f0986a47d4bdfa8845252bae15ef0f40de3b95961f"
+                }
+            ]
+        },
+        {
             "name": "vte-2.91",
             "buildsystem": "meson",
             "sources": [
