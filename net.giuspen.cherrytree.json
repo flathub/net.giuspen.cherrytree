@@ -1,7 +1,7 @@
 {
     "app-id": "net.giuspen.cherrytree",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "command": "cherrytree",
     "rename-desktop-file": "cherrytree.desktop",
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libsigc++/2.12/libsigc++-2.12.1.tar.xz",
-                    "sha256": "a9dbee323351d109b7aee074a9cb89ca3e7bcf8ad8edef1851f4cf359bd50843"
+                    "url": "https://github.com/libsigcplusplus/libsigcplusplus/releases/download/2.12.2/libsigc++-2.12.2.tar.xz",
+                    "sha256": "7d4cdf1e4332ebfee8085ad960075045e7763cb291b3ccf4744d7cbf08a22b75"
                 }
             ]
         },
@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.cairographics.org/releases/cairomm-1.14.5.tar.xz",
-                    "sha256": "70136203540c884e89ce1c9edfb6369b9953937f6cd596d97c78c9758a5d48db"
+                    "url": "https://www.cairographics.org/releases/cairomm-1.14.6.tar.xz",
+                    "sha256": "7e0d5c7f29175d573a03ab5c45aef63f48dd91a5caf335a404cd763e4b7cea4a"
                 }
             ]
         },
@@ -96,8 +96,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.4.tar.xz",
-                    "sha256": "0a142a8128f83c001efb8014ee463e9a766054ef84686af953135e04d28fdab3"
+                    "url": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.5.tar.xz",
+                    "sha256": "ae449192a582a2582a95e0602b15d792bbd639e836339b81ef916aa87540ac5c"
                 }
             ]
         },
@@ -149,8 +149,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/gspell/1.14/gspell-1.14.0.tar.xz",
-                    "sha256" : "64ea1d8e9edc1c25b45a920e80daf67559d1866ffcd7f8432fecfea6d0fe8897"
+                    "url" : "https://download.gnome.org/sources/gspell/1.14/gspell-1.14.4.tar.xz",
+                    "sha256" : "e73a89d68c70f8748aefb6b0f5cfdfec3ff173cf4449837fd6cb17d1e9fcf486"
                 }
             ]
         },
@@ -180,13 +180,38 @@
             ]
         },
         {
+            "name": "simdutf",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/simdutf/simdutf/archive/v9.0.0/simdutf-9.0.0.tar.gz",
+                    "sha256": "fd2ce975f29809a975a8da8843cfb3a7265af3f71be548f199d23cf65e101764"
+                }
+            ]
+        },
+        {
+            "name": "fast_float",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/fastfloat/fast_float/archive/refs/tags/v8.2.10.tar.gz",
+                    "sha256": "76f958dd97b1cf4d8862d1f0986a47d4bdfa8845252bae15ef0f40de3b95961f"
+                }
+            ]
+        },
+        {
             "name": "vte-2.91",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.78.5/vte-0.78.5.tar.bz2",
-                    "sha256" : "50d7290460e0d1116bb288676d34cf528d4b5d667499af2874f0f7589b8e9720"
+                    "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/0.84.0/vte-0.84.0.tar.bz2",
+                    "sha256" : "b215d2c8e56fa03e04dfd1b6c5576479484be15227fa49c236271b46d08581d0"
                 }
             ]
         },
@@ -199,8 +224,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://www.giuspen.net/software/cherrytree_1.7.0.tar.xz",
-                    "sha256" : "5a015cb3af54a096a41795e42f9e41288f7189709046f81717f89d40a16f799b"
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.1/cherrytree_1.7.1.tar.xz",
+                    "sha256" : "ae2e5f14787c673c18ee4c2276e5a1b2973ed62a373b1ef8829d57d78951f0bb"
                 }
             ]
         },
@@ -213,7 +238,7 @@
             "sources": [
                 {
                     "type" : "file",
-                    "url" : "https://www.giuspen.net/software/TinyTeX-1-v2022.04.04.tar.xz",
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.1/TinyTeX-1-v2022.04.04.tar.xz",
                     "sha256" : "3025930f9c9e989c0cac59826f8ee126d677aec728d20537b9e53e13ace29020"
                 }
             ]
