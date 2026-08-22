@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.8.tar.xz",
-                    "sha256": "64f11d3b95a24e2a8d4166ecff518730f79ecc27222ef41faf7c7e0340fc9329"
+                    "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.10.tar.xz",
+                    "sha256": "2b61780203aed98e701d3ea57c8f353e7c8ada9706a79be782f6c5153dd035c0"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/pangomm/2.46/pangomm-2.46.4.tar.xz",
-                    "sha256": "b92016661526424de4b9377f1512f59781f41fb16c9c0267d6133ba1cd68db22"
+                    "url": "https://download.gnome.org/sources/pangomm/2.46/pangomm-2.46.5.tar.xz",
+                    "sha256": "38ca0b050b065de4e3da0c182df657437757063bbf0c4b6c9567ddba019b1d68"
                 }
             ]
         },
@@ -110,8 +110,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.10.tar.xz",
-                    "sha256" : "7ab7e2266808716e26c39924ace1fb46da86c17ef39d989624c42314b32b5a76"
+                    "url" : "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.11.tar.xz",
+                    "sha256" : "19e383c82d5dd89db275e00b82864e90414d4c3fb3d100b2f996bcc2338a4cc7"
                 }
             ]
         },
@@ -224,8 +224,8 @@
             "sources": [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.1/cherrytree_1.7.1.tar.xz",
-                    "sha256" : "ae2e5f14787c673c18ee4c2276e5a1b2973ed62a373b1ef8829d57d78951f0bb"
+                    "url" : "https://github.com/giuspen/cherrytree/releases/download/v1.7.2/cherrytree_1.7.2.tar.xz",
+                    "sha256" : "848c0478f8aa4ec2e932ed00ee6c6618f21b197bbd7fea1bafdd8456468d7d45"
                 }
             ]
         },
